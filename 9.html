@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Same Page Navigation</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            height: 500px;
+            padding: 30px;
+        }
+
+        #home {
+            background-color: rgb(12, 194, 255);
+        }
+
+        #about {
+            background-color: rgb(51, 250, 51);
+        }
+
+        #services {
+            background-color: rgb(255, 255, 67);
+        }
+
+        #contact {
+            background-color: rgb(205, 59, 81);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Home</h1>
+        <p>Welcome to my website.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>About</h1>
+        <p>This is the About section.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h1>Services</h1>
+        <p>These are our services.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>You can contact us here.</p>
+    </section>
+
+</body>
+</html>
