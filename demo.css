@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: boxanimation;
+    animation-duration: 7s;
+}
+@keyframes boxanimation{
+        0%{background-color: darkviolet;}
+        25%{background-color: rgb(255, 106, 0);}
+        50%{background-color: rgb(0, 234, 255);}
+        75%{background-color: rgb(255, 0, 51);}
+        100%{background-color: rgb(246, 255, 0);}
+}
